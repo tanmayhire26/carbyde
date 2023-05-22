@@ -16,8 +16,6 @@ export default function DarkModeSwitch (props: IDarkModeSwitchProps) {
   return (
     <div className=''>
       {mounted && currentTheme === "dark" ? <MdLightMode className='cursor-pointer text-xl hover:text-purple-700' onClick={()=>setTheme("light")} /> : <BsFillMoonFill className='cursor-pointer text-xl hover:text-purple-700' onClick={()=>setTheme("dark")} />}
-        
-        
     </div>
   );
 }

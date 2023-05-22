@@ -11,7 +11,7 @@ export default function Providers (props: any) {
     const {children} = props;
   return (
     <ThemeProvider enableSystem = {true} attribute='class'>
-      <div>
+      <div className='select-none'>
         {children}
       </div>
       

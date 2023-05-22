@@ -1,3 +1,3 @@
-export async function GET(request: Request) {
+export async function getCarCompanies(req : Request, res : Response) {
   return new Response('Hello, Next.js!')
 }
